@@ -1,0 +1,72 @@
+.Select {
+  width: 250px;
+  font-size: 13px;
+  color: #3F4254;
+  cursor: pointer;
+  text-align: left;
+}
+
+.Select_opened {
+  width: 361px;
+}
+
+.Select__Current {
+  height: 32px;
+  border-radius: 4px;
+  padding: 6px 23px 6px 12px;
+  background-color: white;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.Select__Current_opened {
+  border: 1px solid #4971FF;
+}
+
+.Select__Arrow {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.Select__OptionsContainer {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.Select__OptionsContainer_opened {
+  height: 168px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 4px 0;
+}
+
+.Select__OptionsList {
+  list-style: none;
+  padding-left: 0;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+}
+
+.Select__Option {
+  width: 100%;
+  height: 32px;
+  padding: 8px 12px;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+}
+
+.Select__Option_selected {
+  border: 2px solid #4971FF;
+  padding-left: 10px;
+  padding-top: 6px;
+}
+
+.Select__Option:hover {
+  background-color: #E4EAFF;
+}

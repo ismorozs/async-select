@@ -1,0 +1,20 @@
+.UsersSelect__Label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 14px;
+}
+
+.UsersSelect__LabelAvatar {
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  background-color: #4971FF;
+  text-align: center;
+}
+
+.UsersSelect__LabelAvatarText {
+  color: #FFFFFF;
+  font-size: 10px;
+  font-weight: 500;
+}
